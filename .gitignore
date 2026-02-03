@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Model weights
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.safetensors
+
+# Large data files
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Keep small example data
+!data/examples/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
